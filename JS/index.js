@@ -11,10 +11,10 @@ function getTruthy(arr) {
 
 // button click
 function countAndDisplay() {
-  const inputElement = document.getElementById('inputValues');
-  const result = document.getElementById('result');
-  const inputValues = inputElement.value.split(',').map(value => value.trim());
-  const truthyCount = getTruthy(inputValues);
+  let inputElement = document.getElementById('inputValues');
+  let result = document.getElementById('result');
+  let inputValues = inputElement.value.split(',').map(value => value.trim());
+  let truthyCount = getTruthy(inputValues);
 
   result.textContent = `Number of truthy values: ${truthyCount}`;
 }
