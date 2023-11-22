@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+
+input {
+    width: 300px;
+    height: 35px;
+}
+
+
+#getTruthyValues {
+    width: 305px;
+    height: 42px;
+    background: blueviolet;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+label {
+    font-weight: 800;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#result {
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    input {
+        width: 250px;
+        height: 35px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #getTruthyValues {
+        width: 250px;
+        height: 42px;
+        background: red;
+        border: none;
+        border-radius: 5px;
+        font-weight: 800;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+}
