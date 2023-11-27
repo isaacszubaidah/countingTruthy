@@ -2,7 +2,7 @@
 function getTruthy(arr) {
   let count = 0;
   for (let item of arr) {
-    if (item) {
+    if (item.toLowerCase()=== 'true') {
       count++;
     }
   }
